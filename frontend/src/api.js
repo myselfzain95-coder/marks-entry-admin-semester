@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8000'
+const BASE_URL = "/api";
 const TOKEN_KEY = 'ams_admin_token'
 
 export const getToken = () => localStorage.getItem(TOKEN_KEY)
